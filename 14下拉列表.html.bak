@@ -1,0 +1,57 @@
+<!doctype html><!--  -->
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="web">
+  <meta name="Keywords" content="学习">
+  <meta name="Description" content="网站的描述">
+  <title>Document</title>
+  <style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	ul{
+		list-style:none;
+		font-size:0;
+		margin:50px;
+	}
+	li{
+		display:inline-block;
+		width:100px;
+		background-color:#f66;
+		font-size:30px;
+		text-align:center;
+	}
+	li .expnav{
+		visibility:hidden;
+		width:100px;
+		height:0;
+		background-color:#f66;
+		transition:height 2s;
+	}
+	ul li p:hover ~ p{
+		height:300px;
+		visibility:visible;
+	}
+  </style>
+ </head>
+ <body>
+	<div>
+		<ul>
+			<li>
+				<p>123</p>
+				<p class="expnav">下拉1</p>
+			</li>
+			<li>
+				<p>456</p>
+				<p class="expnav">下拉2</p>
+			</li>
+			<li>
+				<p>789</p>
+				<p class="expnav">下拉3</p>
+			</li>
+	</div>
+ </body>
+</html>

@@ -1,0 +1,161 @@
+<!doctype html><!--  -->
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="web">
+  <meta name="Keywords" content="学习">
+  <meta name="Description" content="网站的描述">
+  <title>Document</title>
+  <style>
+	*{
+	margin:0;
+	padding:0;
+	}
+	.wrap{
+		position:relative;
+		width:100%;
+		height:600px;
+		background: rgb(33,93,233) url(../images/1.png) no-repeat;
+	}
+	form{
+	position:absolute;
+	left:850px;
+	top:250px;
+	width:280px;
+	padding:20px;
+	background-color:#ffffff;
+	}
+	form h3{
+	margin:20px 0;
+	}
+	form .other-ways{
+	position:absolute;
+	left:100px;
+	top:10px;
+	width:200px;
+	padding:0;
+	} 
+	form .other-ways .saoma{
+	float:left;
+	position:relative;
+	width:130px;
+	height:24px;
+	line-height:24px;
+	border:1px solid #ffcc99;
+	background-color:#fff;
+	vertical-align:top;
+	}
+	form .other-ways .saoma:before{
+	position:absolute;
+	top:7px;
+	left:131px;
+	width:0px;
+	height:0px;
+	border-top:5px solid rgba(0,0,0,0);
+	border-right:5px solid rgba(0,0,0,0);
+	border-bottom:5px solid rgba(0,0,0,0);
+	border-left:5px solid #ffcc99;
+	content:"";
+	}
+	form .other-ways .saoma:after{
+	position:absolute;
+	top:8px;
+	left:130px;
+	width:0px;
+	height:0px;
+	border-top:4px solid rgba(0,0,0,0);
+	border-right:4px solid rgba(0,0,0,0);
+	border-bottom:4px solid rgba(0,0,0,0);
+	border-left:4px solid #fff;
+	content:"";
+	}
+	form .other-ways .erweima{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background:url("../images/erweima.png") 0 0 / contain no-repeat;
+	}
+	form .other-ways .erweima:after{
+	display:inline-block;
+	width:0px;
+	height:0px;
+	border-top:20px solid rgba(0,0,0,0);
+	border-right:20px solid rgba(0,0,0,0);
+	border-bottom:20px solid #fff;
+	border-left:20px solid #fff;
+	content:"";
+	}
+	form .other-ways:active img{
+		position:absolute;
+		right:0px;
+		width:180px;
+		background-color:#ffffff;
+	}
+
+	form .num,form .pwd{
+	font-size:0;
+	margin-bottom:10px;
+	width:200px;
+	height:30px;
+	padding-left:25px;
+	}
+	form .num img, form .pwd img{
+	background-color:#99cccc;
+	} 
+	form [type="text"]{
+	width:166px;
+	line-height:26px;
+	vertical-align:top;
+	}
+	form div {
+		width:200px;
+		padding-left:25px;
+		text-align:center;
+	}
+	form div [type="submit"]{
+		width:200px;
+		height:30px;
+		border:0;
+		border-radius:4px;
+		background-color:#F00;
+	}
+	form .forget{
+	height:20px;
+	line-height:20px;
+	text-align:right;
+	}
+	form .forget a{
+	text-decoration:none;
+	font-size:14px;
+	color:#c0c0c0;
+	}
+
+  </style>
+ </head>
+ <body>
+	<div class="wrap">
+		<form action="#" method="post" id="login">
+			<div class="other-ways">
+				<p class="saoma">扫码登录更安全</p>
+				<p class="erweima"></p>
+			</div>
+			<h3>密码登录</h3>
+			<div class="num">
+				<img src="../images/num.png" width=30px/>
+				<input type="text" placeholder="请输入你的账户" name="number">
+			</div>
+			<div class="pwd">
+				<img src="../images/pwd.png" width=30px/>
+				<input type="text" placeholder="请输入你的密码" name="number">
+			</div>
+			<div>
+				<input type="submit" value="登录">
+			</div>
+			<p class="forget">
+				<a href="">忘记密码</a>
+			</p>
+		</form>
+	</div>
+ </body>
+</html>

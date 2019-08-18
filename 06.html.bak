@@ -1,0 +1,74 @@
+<!doctype html><!--  -->
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="web">
+  <meta name="Keywords" content="学习">
+  <meta name="Description" content="网站的描述">
+  <title>Document</title>
+  <style>
+	*{
+	margin:0;
+	padding:0;
+	}
+	ul .L1{
+	width:40px;
+	height:40px;
+	vertical-align:top;
+	background:url(../images/demo1/1.png) -80px -280px;
+	}
+	ul .L2{
+	width:40px;
+	height:40px;
+
+	vertical-align:top;
+	background:url(../images/demo1/1.png) 0 -200px;
+	}
+	ul .L3{
+	width:40px;
+	height:40px;
+	vertical-align:top;
+	background:url(../images/demo1/1.png) 0 -240px;
+	}
+	ul .L4{
+	width:40px;
+	height:40px;
+	vertical-align:top;
+	background:url(../images/demo1/1.png) 0 -320px;
+	}
+	ul .L5{
+	width:40px;
+	height:40px;
+	vertical-align:top;
+	background:url(../images/demo1/1.png) 0 0;
+	}
+	ul li a{
+	display:block;
+	margin:0;
+	width:40px;
+	height:40px;
+	box-sizing:border-box;
+	}
+  </style>
+ </head>
+ <body>
+	<ul>
+		<li class="L1">
+			<a href=""> </a>
+		</li>
+		<li class="L2">
+			<a href=""> </a>
+		</li>
+		<li class="L3">
+			<a href=""> </a>
+		</li>	
+		<li class="L4">
+			<a href=""> </a>
+		</li>
+		<li class="L5">
+			<a href=""> </a>
+		</li>
+	</ul>
+ </body>
+</html>

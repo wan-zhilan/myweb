@@ -1,0 +1,167 @@
+<!doctype html><!--  -->
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="web">
+  <meta name="Keywords" content="学习">
+  <meta name="Description" content="网站的描述">
+  <title>Document</title>
+  <style>
+	*{
+	margin:0;
+	padding:0;
+	}
+	div{
+	width:629px;
+	margin:10px;
+	padding:0;
+	background:#e2e2e2;
+	}
+	div .nav{
+	float:right;
+	width:200px;
+	margin-bottom:10px;
+	padding:0;
+	}
+	div .nav li{
+	float:left;
+	display:inline-block;
+	list-style:none;
+	width:30px;
+	margin-left:10px;
+	font-size:12px;
+	text-align:right;
+	}
+	div .products{
+	width:630px;
+	margin:0;
+	padding:0;
+	clear:both;
+	}
+	div .products li{
+	display:inline-block;
+	list-style:none;
+	width:150px;
+	height:250px;
+	margin:0;
+	padding:0;
+	vertical-align:top;
+	background:#ffffff;
+	font-size:10px;
+	}
+	div .products .mr{
+	margin-right:5px;
+	}
+	div .products .mbt{
+	margin-bottom:10px;
+	}
+	div .products h5{
+	margin:10px 0 5px 0;
+	padding:5px;
+	font-size:15px;
+	}
+	div .products span{
+	padding:5px;
+	font-size:10px;
+	color:#6633cc;
+	}
+	div .products p{
+		text-align:center;
+	}
+	div .products p span{
+		text-align:center;
+		color:#ff0033;
+	}
+  </style>
+ </head>
+ <body>
+	<div>
+		<ul class="nav">
+			<li>
+				<span>口红</span>
+			</li>		
+			<li>
+				<span>YSL</span>
+			</li>
+			<li>
+				<span>迪奥</span>
+			</li>
+			<li>
+				<span>防晒</span>
+			</li>
+			<li>
+				<span>面膜</span>
+			</li>
+		</ul>	
+		<ul class="products">
+			<li class="mr mbt">
+				
+				<h5>官方直营</h5>
+				<span>极致购物感受</span>
+				<img src="../images/0 (4).jpg" width=150px />
+			</li>
+			<li class="mr mbt">
+				<img src="../images/0 (8).jpg" width=150px />
+				<p>VT益生菌酸奶面膜10</br>
+					片韩国蚕丝亮白补水
+					</br><span>¥99</span>
+				</p>
+			</li>
+			<li class="mr mbt">
+				<img src="../images/0 (7).jpg" width=150px />
+				<p>
+					EBISU/惠百施日本原</br>
+					装进口舌苔刷清洁舌
+					</br><span>¥45</span>
+				</p>	
+			</li>
+			<li class="mbt">
+				<img src="../images/0 (2).jpg" width=150px />
+				<p>
+					进口保税
+					日本资生堂</br>
+					UNO吾诺洗面奶
+					</br><span>¥69</span>
+				</p>	
+			</li>
+			<li class="mr">
+				<img src="../images/0 (1).jpg" width=150px />
+				<p>
+					进口保税
+					日本资生堂</br>
+					UNO吾诺洗面奶
+					</br><span>¥69</span>
+				</p>
+			</li>
+			<li class="mr">
+				<img src="../images/0 (6).jpg" width=150px />
+				<p>
+					进口保税
+					日本资生堂</br>
+					UNO吾诺洗面奶
+					</br><span>¥69</span>
+				</p>	
+			</li>
+			<li class="mr">
+				<img src="../images/0 (5).jpg" width=150px />
+				<p>
+					进口保税
+					日本资生堂</br>
+					UNO吾诺洗面奶
+					</br><span>¥69</span>
+				</p>	
+			</li>
+			<li>
+				<img src="../images/0 (3).jpg" width=150px />
+				<p>
+					进口保税
+					日本资生堂</br>
+					UNO吾诺洗面奶
+					</br><span>¥69</span>
+				</p>
+			</li>
+		</ul>
+	</div>
+ </body>
+</html>

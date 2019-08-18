@@ -1,0 +1,96 @@
+<!doctype html><!--  -->
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="web">
+  <meta name="Keywords" content="学习">
+  <meta name="Description" content="网站的描述">
+  <title>Document</title>
+  <style>
+	li{
+	list-style:none;
+	margin:5px;
+	padding:5px;
+	width:250px;
+	border:2px solid #99cccc;
+	}
+	li h5{
+	margin:0;
+	font-size:15px;
+	}
+	li p{
+	margin:0;
+	margin-top:8px;
+	font-size:10px;
+	}
+	li .p{
+	margin:0;
+	color:#ff0066;
+	}
+	li span{
+	margin-right:5px;
+	color:#ff0000;
+	}
+	li a{
+	text-decoration:none;
+	color:#000000;
+	}
+	li a:hover{
+	color:#333399;
+	}
+  </style>
+ </head>
+ <body>
+	<ul>
+		<li>
+			<img src="../images/pic1.jpg"width=250px />
+			<h5>
+				<a href="https://www.bilibili.com/">
+					动画便利店X果壳网《西门子洗碗机》
+				</a>
+			</h5>
+			<p>
+				<span class="p">原创作品</span>
+				-作品-Motion-Graph
+			</p>
+			<p>3小时前上传</p>
+			<p>	
+				<span>1284</span>
+		
+				 人气/
+				<span>11</span>
+				 评论/
+				<span>47</span>
+				<a href="">推荐</a>
+				</br><img src="../images/play.png" width=16px/>
+			</p>
+			
+			
+
+		</li>
+		<li>
+			<img src="../images/pic2.jpg" width=250px />
+			<h5>
+				<a href="https://www.bilibili.com/">
+					动画便利店X果壳网《西门子洗碗机》
+				</a>
+			</h5>
+			<p>
+				<span class="p">原创作品</span>
+			-作品-Motion-Graph
+			</p>
+			<p>3小时前上传</p>
+			<p>	
+				<span>1284</span>
+				人气/
+				<span>11</span>
+				评论/
+				<span>47</span>
+				<a href="">推荐</a>
+				</br><img src="../images/play.png" width=20px/>
+			</p>
+		</li>
+	</ul>
+ </body>
+</html>

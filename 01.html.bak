@@ -1,0 +1,51 @@
+<!doctype html><!-- 声明文档类型 -->
+<html lang="en">
+ <head><!-- 头部 信息区域 -->
+  <meta charset="UTF-8">
+  <!--设置编码为UTF-8万国编码-->
+  <meta name="Author" content="emmm">
+  <meta name="Keywords" content="学习">
+  <meta name="Description" content="网站的描述">
+  <title>我的第一个网页</title><!-- 设置网页的标题 -->
+ </head>
+ <body>
+  <!-- 可视化区域 -->
+	乌拉1
+	乌拉2
+	乌拉3
+	<p>
+		乌拉1
+	</p>
+	<p>
+		乌拉2
+	</p>
+	<p>
+		乌拉3
+	</p>
+	<p>
+		我长大了，现在想起一年级时连自己的书包也不会整理，铅笔不会削，起床<strong>父母</strong>叫，需父母接送，我都会情不自禁的笑起来，因为我也有<em>自尊</em>心，感到非常丑。很多思考题不会做，“<b>爸</b>，快来教我！”常识问题不懂，“<i>妈</i>，快来指点我！”这些<span>问题</span>已经不算什么了，我已会自己解决这些困难了
+	</p>
+	<ul>
+		<li>列表项1</li>
+		<li>列表项2</li>
+	</ul>
+	<ol type="I">
+		<li>列表项1</li>
+		<li>列表项2</li>
+	</ol>
+	<dl>
+		<dt>列表标题</dt>
+		<dd>列表项1</dd>
+		<dd>列表项2</dd>
+	</dl>
+	<span>乌拉</span>
+	<span>乌拉</span>
+	<span>乌拉</span>
+	<h1>一级标题</h1>
+	<h2>二级标题</h2>
+	<h3>三级标题</h3>
+	<h4>四级标题</h4>
+	<h5>五级标题</h5>
+	<h6>六级标题</h6>
+ </body>
+</html>
